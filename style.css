@@ -1,0 +1,156 @@
+*{
+    transition:0.3s;
+}
+
+#crc{
+    
+    background: rgba( 27, 38, 139, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 15px );
+-webkit-backdrop-filter: blur( 15px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+    margin-left: auto;
+    margin-right: auto;
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+    position: fixed;
+    bottom:-100px;
+   
+    left:-130px;
+}
+
+.fas{
+position: relative;
+    font-size: 30px;
+
+}
+.cls{
+    
+    position: relative;
+    width:50px;
+    height:50px;
+    top:75px;
+    left:170px;
+    
+}
+.cls:hover{
+    cursor: pointer;
+}
+
+.brs3{
+
+    position: relative;
+    
+    top:15px;
+    width:30px;
+    height:3px;
+    border-radius:500px;
+    background: #000;
+
+}
+.brs2{
+
+    position: relative;
+    
+    top:10px;
+    width:30px;
+    height:3px;
+    border-radius:500px;
+    background: #000;
+
+}
+.brs1{
+    
+    position: relative;
+    
+    top:5px;
+    width:30px;
+    height:3px;
+    border-radius:500px;
+    background: #000;
+
+}
+
+.brsc1{
+top:10px;
+    transform: rotate(45deg);
+
+}
+
+.brsc2{
+    top:7px;
+    transform: rotate(135deg);
+}
+
+.brsc3{
+   
+    transform:translateX(-400%);
+}
+
+.fa-home{
+top:100px;
+left:160px;
+opacity:0;
+}
+.fa-archway{
+    top:100px;
+    left:120px;
+    opacity:0;
+}
+.fa-dungeon{
+    top:100px;
+    left:90px;
+    opacity:0;
+}
+.fa-tachometer-alt{
+    opacity:0;
+    top:100px;
+    left:50px;
+}
+
+.elm1{
+    top:160px;
+    left:250px;
+    opacity:1;
+}
+
+.elm1:hover{
+    color: rgb(75, 75, 230);
+}
+
+
+
+.elm2{
+    opacity:1;
+    top:90px;
+    left:210px;
+}
+
+.elm2:hover{
+    color: rgb(4, 133, 105);
+}
+
+.elm3{ opacity:1;
+    top:30px;
+    left:140px;
+}
+
+.elm3:hover{
+    color: rgb(232, 93, 250);
+}
+
+.elm4{
+    
+    opacity:1;
+    top:3px;
+    left:40px;
+}
+
+.elm4:hover{
+    color: rgb(230, 75, 101);
+}
+
+
